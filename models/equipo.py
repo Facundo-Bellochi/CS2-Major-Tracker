@@ -5,8 +5,7 @@ class jugador:
         self.país = país
         self.rol = rol
         self.foto = foto
-    def __str__(self):        return f"Nickname: {self.nickname}\nNombre Real: {self.nombre_real}\nPaís: {self.país}\nRol: {self.rol}\nFoto: {self.foto}"
-
+    def __str__(self): return f"Nickname: {self.nickname}\nNombre Real: {self.nombre_real}\nPaís: {self.país}\nRol: {self.rol}\nFoto: {self.foto}"
 
 class Equipo:
     def __init__(self, nombre, pais, ranking, jugadores=None):
